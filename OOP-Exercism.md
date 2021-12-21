@@ -265,8 +265,10 @@ Para este primer ejercicio se suministra en el directorio `vector3D` un esquelet
 desarrollar.
 Complete el código (y los tests) necesario en los diferentes ficheros de ese proyecto.
 
-Clase XXX
-Clase Timer
+Clase Estudiante
+Clase Racional
+Clase Encriptado de textos
+Clase Timer https://stackoverflow.com/questions/22387586/measuring-execution-time-of-a-function-in-c
 Clase Game
 
 
