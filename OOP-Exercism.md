@@ -138,7 +138,7 @@ Cada ejercicio de Exercism va acompañado de una serie de tests que el programa 
 considerado válido.
 
 Tal como se explica en la página [Running the Tests](https://exercism.io/tracks/cpp/tests), cada problema va
-acompañado de sus tests unitarios y un fichero `CMakeLists.txt` que se
+acompañado de sus tests unitarios y de un fichero `CMakeLists.txt` que se
 utiliza para automatizar la compilación de los tests y del propio programa.
 Tenga en cuenta que **no** debiera editar ni modificar el fichero `CMakeLists.txt`.
 
@@ -200,57 +200,19 @@ https://exercism.io/my/solutions/xxxx
 A partir de este punto puede ya ver las soluciones que otras usuarias hayan dado al mismo problema o bien
 avanzar con otros problemas de ese mismo "track".
 
-### Trabajo previo
-Antes de realizar los ejercicios de esta práctica, estudie detenidamente los capítulo 12 y 13(epígrafes 12.1-12.15, 13.1-13.13) del
-[tutorial](https://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/)
-de referencia en la asignatura.
-Muchos de los ejemplos de ese tutorial son los mismos que se utilizan en las clases de la asignatura,
-cuyo material (transparencias y códigos de ejemplo) debiera Ud. también estudiar.
-Las transparencias de la asignatura debieran servirle de guía a la hora de determinar qué partes del tutorial
-ha de estudiar con mayor profundidad.
-
-Ponga especial atención en estos ejercicios en seguir las normas de *Buenas prácticas* de programación a la
-hora de diseñar programas orientados a objetos que se indican en las transparencias de la asignatura.
-
-* Al realizar los ejercicios cree dentro de su repositorio de esta práctica un directorio diferente
-con nombre significativo (vectors, compute, fecha, complejos p. ej.) para cada uno de ellos.
-* Tómese como ejemplo el primero de los ejercicios y haga que cada uno de sus programas conste de 3 ficheros:
-  * Un fichero `vector_main.cc` (programa principal) que contendrá la función `main` e incluirá el fichero de cabecera `vector.h`.
-  * El fichero `vector.h` que contendrá las declaraciones correspondientes a la clase `Vector`.
-  * El fichero `vector.cc` que contendrá el código (definiciones) correspondientes a la clase `Vector`.
-  * Obviamente si el programa principal (`vectors.cc`) utiliza otras clases, debería incluir (`#include`) los
-  correspondientes ficheros de cabecera.
-  * Modifique estos nombres de ficheros para adaptarlos al ejercicio en cuestión.
-* La compilación del programa correspondiente a cada ejercicio se automatizará con un fichero `CMakeLists.txt`
-que se utilizará con `cmake`.
-Así pues, la estructura de directorios y sus contenidos correspondiente al primero de los ejercicios
-propuestos sería la siguiente:
-```
- vector3D
- ├── CMakeLists.txt  // Fichero de configuración para cmake
- ├── src             // Directorio contenedor del código fuente del ejercicio
- │   ├── Makefile
- │   ├── vector.cc
- │   ├── vector.h
- │   └── vector_main.cc
- └── test            // Directorio contenedor del código de los tests del ejercicio
-     ├── gtest_main.cc
-     └── test_vector.cc
-```
-* Desarrolle cada ejercicio de forma incremental, probando cada una de las funciones que va Ud.
-desarrollando. 
-* Al realizar los ejercicios, ponga en práctica el ciclo de desarrollo TDD:
-  * Escriba un test que falle y que define una mejora deseada o una nueva función
-  * Escriba el código (función, método) que haga que la prueba pase satisfactoriamente 
-  * Finalmente refactorice el nuevo código hasta obtener un resultado satisfactorio
-* Utilice el depurador integrado de VSC para depurar los programas de modo que funcionen correctamente.
-* Todos estos programas han de tomar su entrada (si es que hay alguna) como parámetros pasados por línea de comandos.
-* Para cada una de las clases que se pide desarrollar, desarrolle también un programa cliente (el que
-contendrá la función *main()*) que declare objetos de la clase en cuestión y compruebe el correcto
-funcionamiento de los métodos de la clase.
-
 ### Ejercicios
-1. Desarrolle una clase `Vector3D` para representar vectores en el espacio tridimensional.
+1. Solucione un mínimo de 3 de los ejercicios de Exercism etiquetados como "fáciles" (*Easy*).
+
+2. Utilice su clase `Complejo` de la práctica anterior para resolver el ejercicio
+[Complex Numbers](https://exercism.org/tracks/cpp/exercises/complex-numbers)
+de Exercism.
+
+3. Realice un programa orientado a objetos que resuelva el ejercicio 
+[Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
+de Exercism. 
+Consiga que su solución pase todos los tests y envíe su solución a la plataforma.
+
+4. Desarrolle una clase `Vector3D` para representar vectores en el espacio tridimensional.
 La clase contemplará métodos al menos para:
   * Imprimir en pantalla las componentes de un vector en un formato adecuado 
   * Sumar un par de vectores
@@ -264,12 +226,84 @@ Para este primer ejercicio se suministra en el directorio `vector3D` un esquelet
 desarrollar.
 Complete el código (y los tests) necesario en los diferentes ficheros de ese proyecto.
 
+
 Clase Estudiante
+
 Clase Racional
+
 Clase Encriptado de textos
+
 Clase Timer https://stackoverflow.com/questions/22387586/measuring-execution-time-of-a-function-in-c
+
 Clase Game
 
+
+3. La clase Racional.
+
+Un 
+[número racional](https://en.wikipedia.org/wiki/Rational_number)
+tiene un numerador y un denominador de la forma `p/q` donde `p` es el numerador y `q` el denominador.
+Por ejemplo, 1/3, 3/4 y 10/4 son números racionales.
+
+Un número racional no puede tener denominador 0, pero sí puede ser cero el numerador.
+Todo número entero `n` es equivalente al racional `n/1`.
+Los números racionales se utilizan en cálculos precisos que involucran fracciones.
+Por ejemplo, `1/3 = 0.33333 ...`.
+Este número no puede ser representado de forma precisa en formato de punto flotante utilizando los tipos float o double.
+Para obtener resultados precisos es conveniente usar números racionales.
+
+C++ dispone de tipos de datos para enteros y números en punto flotante, pero no para racionales.
+En este ejercicio se propone el diseño de una clase para representar números racionales.
+
+Desarrolle un programa cliente `racionales.cc` que permita operar con números racionales y haga uso
+de la clase `Racional` que ha de diseñarse.
+
+Las siguientes deben tomarse como especificaciones del programa a desarrollar:
+* Separe el diseño de su clase `Racional` en dos ficheros, `racional.h` y `racional.cc` conteniendo
+  respectivamente la declaración y la definición de la clase.
+* La clase `Racional` incluirá al menos métodos para:
+    * Crear objetos de tipo `Racional`. Se debe implementar un constructor por defecto y uno parametrizado.
+    * Escribir (a fichero o a pantalla) un objeto de tipo `Racional`.
+    * Leer (por teclado o desde fichero) un objeto de tipo `Racional`.
+    * Sumar dos objetos de tipo `Racional`.
+    * Restar dos objetos de tipo `Racional`.
+    * Multiplicar dos objetos de tipo `Racional`.
+    * Dividir dos objetos de tipo `Racional`.
+    * Comparar objetos de tipo `Racional`.
+* El programa ha de permitir leer un fichero de texto en el que figuran pares de números racionales
+separados por espacios de la forma:
+
+```
+a/b c/d
+e/f g/h
+  ...
+```
+
+y para cada par de números racionales, el programa ha de imprimir en otro fichero de salida todas las operaciones posibles
+con cada uno de los pares de números del fichero de entrada, de la forma:
+
+```
+a/b + c/d = n/m
+  ...
+```
+
+Si el programa se ejecuta sin pasar parámetros en la línea de comandos, debemos obtener el siguiente mensaje:
+
+```
+./racionales -- Números Racionales
+Modo de uso: ./racionales fichero_entrada fichero_salida
+Pruebe ./racionales --help para más información
+```
+
+Si el programa se ejecuta pasando como parámetro la opción `--help` se ha de obtener:
+
+```
+./racionales -- Números Racionales
+Modo de uso: ./racionales fichero_entrada fichero_salida 
+
+fichero_entrada: Fichero de texto conteniendo líneas con un par de números racionales: `a/b c/d` separados por un espacio
+fichero_salida:  Fichero de texto que contendrá líneas con las operaciones realizadas: `a/b + c/d = n/m`
+```
 
 ### Referencias
 * [Exercism](https://exercism.io/)
@@ -281,4 +315,5 @@ Clase Game
 * [Cómo usar Google Test para C++ en VSC](https://docs.microsoft.com/es-es/visualstudio/test/how-to-use-google-test-for-cpp?view=vs-2019), 
 * [Introduction to modern CMake for beginners](https://www.internalpointers.com/post/modern-cmake-beginner-introduction)
 * [Welcome to object-oriented programming - Tutorial learnCPP](https://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/).
+* [Rational Number](https://en.wikipedia.org/wiki/Rational_number)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
