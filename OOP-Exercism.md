@@ -48,7 +48,7 @@ hacerlo mediante la resolución de ejercicios que otros usuarios han planteado.
 Lo que se persigue es que tanto quien resuelve el problema como quien lo planteó aprendan al mismo tiempo. 
 Además, la interacción con el resto de la comunidad podrá llevar a debates para determinar cuál sería la mejor solución para un determinado problema.
 
-La plataforma se basa en una una aplicación de línea de comandos disponible para diferentes sistemas
+La plataforma se basa en una una aplicación ejecutable en línea de comandos disponible para diferentes sistemas
 operativos (Linux, Mac, Windows).
 Usando esa aplicación, un usuario puede descargar una serie de ejercicios de programación disponibles en la
 plataforma y realizar los correspondientes programas hasta que consiga pasar los diferentes tests que se
@@ -66,10 +66,10 @@ desee practicar.
 Obviamente se propone que elija el track correspondiente a C++.
 
 Propóngase a continuación resolver el problema "Hello World".
-En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica *Get started* y 
+En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica *Install Exercism locally* y 
 [Begin walk-through](https://exercism.io/cli-walkthrough).
 Si sigue ese enlace le llevará a la página *Welcome to the Exercism installation guide!* con instrucciones
-sobre cómo instalar `exercism`.
+sobre cómo instalar `Exercism`.
 En este documento se propone instalarla en la máquina virtual Linux de la asignatura.
 Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
 ```
@@ -107,12 +107,14 @@ API Base URL:  (-a, --api)        https://api.exercism.io/v1
 ```
 A continuación se puede elegir un problema para pasar a resolverlo.
 Se propone, como ya se ha dicho, elegir el problema "Hello World".
-En la página de ese problema figura una descripción precisa del problema planteado y en la parte derecha de
-esa página figuran las instrucciones para:
+En la página de cada problema figura una descripción precisa del mismo y 
+en la pestaña *Your iterations* hay un enlace
+[Learn more about solving exercises locally](https://exercism.org/docs/using/solving-exercises/working-locally)
+en el que figuran instrucciones para:
 * Download. Descargar el problema mediante el comando `exercism download --exercise=hello-world --track=cpp`
 * Solve. Para resolver el problema se propone usar el editor favorito del usuario. Se recomienda usar Visual
   Studio Code
-* Submit. El comando para subir a la plataforma la solución que el usuario proponga.
+* Submit. El comando (`exercism submit`) para subir a la plataforma la solución que el usuario proponga.
 
 Si se ejecuta el comando para descargar el problema el sistema responde:
 ```
