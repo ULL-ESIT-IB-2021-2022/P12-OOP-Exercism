@@ -71,9 +71,9 @@ En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que i
 locally](https://exercism.org/docs/using/solving-exercises/working-locally).
 Si sigue ese enlace le llevará a la página *Working Locally* que explica cómo trabajar con la plataforma en su
 máquina local.
-Desde esa página se accede al enlace
+Desde esa página (*Installing the CLI*) se accede al enlace
 [Welcome to the Exercism installation guide!](https://exercism.org/cli-walkthrough)
-donde hallará instrucciones sobre cómo instalar `Exercism` en su máquina (*Installing the CLI*).
+donde hallará instrucciones sobre cómo instalar `Exercism` en su máquina.
 En este documento se propone instalarla en la máquina virtual Linux de la asignatura.
 Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
 ```
