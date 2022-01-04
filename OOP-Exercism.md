@@ -304,12 +304,15 @@ Realice un programa orientado a objetos que resuelva el ejercicio
 de Exercism. 
 Consiga que su solución pase todos los tests y envíe su solución a la plataforma.
 Si estudia el fichero `robot_simulator_test.cpp` de tests del problema observará que la clase `Robot` a
-diseñar ha de contener al menos los métodos
+diseñar ha de contener al menos los métodos:
 * *get_bearing()*
 * *get_position()*
 * *turn_left()*
 * *advance()*
 * *execute_sequence()*
+Deduzca también a partir de los tests los constructores que ha de tener la clase `Robot`.
+Recuerde que la estrategia a seguir en la solución del problema consiste en ir "desbloqueando" progresivamente
+los distintos tests que ha de pasar el programa.
 
 ### Referencias
 * [Exercism](https://exercism.io/)
