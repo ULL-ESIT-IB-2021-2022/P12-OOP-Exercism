@@ -75,7 +75,7 @@ máquina local.
 Desde esa página (*Installing the CLI*) se accede al enlace
 [Welcome to the Exercism installation guide!](https://exercism.org/cli-walkthrough)
 donde hallará instrucciones sobre cómo instalar `Exercism` en su máquina.
-En este documento se propone instalarla en la máquina virtual Linux de la asignatura.
+En este documento se propone instalarla en la máquina virtual de la asignatura.
 Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
 ```
 $ sudo snap install exercism
@@ -91,8 +91,8 @@ Si quiere Ud. saber más sobre `snap` puede consultar
 [esta referencia](https://snapcraft.io/docs/getting-started),
 aunque ello no es necesario para el trabajo que se propone realizar con Exercism.
 
-Una vez instalada la aplicación `exercism` el siguiente paso es configurar la interfaz de comandos (CLI) de la
-aplicación.
+Una vez instalada la aplicación `exercism` el siguiente paso es configurar la interfaz de comandos 
+(*Command Line Interface*, CLI) de la aplicación.
 Para ello se pide que se ejecute el comando
 ```
 $ exercism configure --token=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
