@@ -206,42 +206,19 @@ A partir de este punto puede ya ver las soluciones que otras usuarias hayan dado
 avanzar con otros problemas de ese mismo "track".
 
 ### Ejercicios
-1. Solucione un mínimo de 3 de los ejercicios de Exercism etiquetados como "fáciles" (*Easy*).
+1. Solucione todos los problemas que le sea posible en la plataforma Exercism.
+Ello le ayudará a mejorar sus capacidades como programadora.
+Para la evaluación de esta práctica se le pedirá que, aparte del problema "Hello World!" y de otros
+relacionados en este documento, presente la solución
+de un problema adicional de Exercism de los etiquetados como "fáciles" (*Easy*).
 
 2. Utilice su clase `Complejo` de la práctica anterior para resolver el ejercicio
 [Complex Numbers](https://exercism.org/tracks/cpp/exercises/complex-numbers)
-de Exercism.
-
-3. Realice un programa orientado a objetos que resuelva el ejercicio 
-[Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
 de Exercism. 
-Consiga que su solución pase todos los tests y envíe su solución a la plataforma.
-
-4. Desarrolle una clase `Vector3D` para representar vectores en el espacio tridimensional.
-La clase contemplará métodos al menos para:
-  * Imprimir en pantalla las componentes de un vector en un formato adecuado 
-  * Sumar un par de vectores
-  * Calcular el producto de un número real por un vector
-  * Calcular el producto escalar de dos vectores
-  * Calcular el módulo de un vector 
-  * Normalizar un vector
-
-Para conseguir estas funcionalidades, sobrecargue los operadores que sea necesario.
-Para este primer ejercicio se suministra en el directorio `vector3D` un esqueleto del código que ha de
-desarrollar.
-Complete el código (y los tests) necesario en los diferentes ficheros de ese proyecto.
-
-
-Clase Estudiante
-
-Clase Racional
-
-Clase Encriptado de textos
-
-Clase Timer https://stackoverflow.com/questions/22387586/measuring-execution-time-of-a-function-in-c
-
-Clase Game
-
+En Exercism el nombre de la clase ha de ser *Complex* (estudie el fichero
+`complex_numbers_test.cpp` que contiene los tests de ese problema).
+Es posible que tenga que realizar alguna otra modificación sobre su implementación de la 
+clase *Complejo* de la práctica anterior.
 
 3. La clase Racional.
 
@@ -309,6 +286,23 @@ Modo de uso: ./racionales fichero_entrada fichero_salida
 fichero_entrada: Fichero de texto conteniendo líneas con un par de números racionales: `a/b c/d` separados por un espacio
 fichero_salida:  Fichero de texto que contendrá líneas con las operaciones realizadas: `a/b + c/d = n/m`
 ```
+Desarrolle tests (Google Tests) para comprobar el correcto funcionamiento de todos los métodos de la clase
+`Racional`.
+
+4. Descargue y estudie el problema 
+[Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
+de Exercism. 
+Teniendo en mente ese problema (*Robot Simulator*), diseñe una solución orientada a objetos para el problema
+[Movements on the ground](https://jutge.org/problems/P79784) de Jutge.
+Aunque no se requieren en Jutge, desarrolle tests unitarios (Google Tests) para comprobar la corrección de su
+diseño.
+
+5. La realización de este ejercicio es **Opcional** en esta práctica.
+Realice un programa orientado a objetos que resuelva el ejercicio 
+[Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
+de Exercism. 
+Consiga que su solución pase todos los tests y envíe su solución a la plataforma.
+
 
 ### Referencias
 * [Exercism](https://exercism.io/)
