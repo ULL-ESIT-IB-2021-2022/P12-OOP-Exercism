@@ -69,10 +69,11 @@ Propóngase a continuación resolver el problema "Hello World".
 En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica 
 [Learn more about solving exercises
 locally](https://exercism.org/docs/using/solving-exercises/working-locally).
-Si sigue ese enlace le llevará a la página *Working Locally* con instrucciones
-sobre cómo instalar `Exercism` en su máquina (*Installing the CLI*).
-En la página
+Si sigue ese enlace le llevará a la página *Working Locally* que explica cómo trabajar con la plataforma en su
+máquina local.
+Desde esa página se accede al enlace
 [Welcome to the Exercism installation guide!](https://exercism.org/cli-walkthrough)
+donde hallará instrucciones sobre cómo instalar `Exercism` en su máquina (*Installing the CLI*).
 En este documento se propone instalarla en la máquina virtual Linux de la asignatura.
 Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
 ```
