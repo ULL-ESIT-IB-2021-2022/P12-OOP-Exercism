@@ -1,4 +1,4 @@
-# Práctica 12. Programación Orientada a Objetos. Tests Unitarios. Google Tests.
+# Práctica 12. Programación Orientada a Objetos. Exercism.
 
 # Factor de ponderación: 10
 
