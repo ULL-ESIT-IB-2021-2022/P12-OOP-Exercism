@@ -311,7 +311,9 @@ diseñar ha de contener al menos los métodos:
 * *turn_left()*
 * *advance()*
 * *execute_sequence()*
+
 Deduzca también a partir de los tests los constructores que ha de tener la clase `Robot`.
+
 Recuerde que la estrategia a seguir en la solución del problema consiste en ir "desbloqueando" progresivamente
 los distintos tests que ha de pasar el programa.
 
