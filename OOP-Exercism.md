@@ -65,7 +65,8 @@ Una vez disponga de una cuenta, configure lo básico de la misma y elija un "tra
 desee practicar.
 Obviamente se propone que elija el track correspondiente a C++.
 
-Propóngase a continuación resolver el problema "Hello World".
+Propóngase a continuación resolver el problema
+["Hello World"](https://exercism.org/tracks/cpp/exercises/hello-world).
 En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica 
 [Learn more about solving exercises
 locally](https://exercism.org/docs/using/solving-exercises/working-locally).
