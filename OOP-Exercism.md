@@ -299,6 +299,7 @@ diseño.
 Suba el problema a Jutge para su evaluación.
 
 5. La realización de este ejercicio es **Opcional** en esta práctica.
+
 Realice un programa orientado a objetos que resuelva el ejercicio 
 [Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
 de Exercism. 
