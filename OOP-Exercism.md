@@ -291,18 +291,25 @@ Desarrolle tests (Google Tests) para comprobar el correcto funcionamiento de tod
 
 4. Descargue y estudie el problema 
 [Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
-de Exercism. 
+de Exercism y lea también el enunciado del problema siguiente (número 5) de esta relación.
 Teniendo en mente ese problema (*Robot Simulator*), diseñe una solución orientada a objetos para el problema
 [Movements on the ground](https://jutge.org/problems/P79784) de Jutge.
 Aunque no se requieren en Jutge, desarrolle tests unitarios (Google Tests) para comprobar la corrección de su
 diseño.
+Suba el problema a Jutge para su evaluación.
 
 5. La realización de este ejercicio es **Opcional** en esta práctica.
 Realice un programa orientado a objetos que resuelva el ejercicio 
 [Robot Simulator](https://exercism.org/tracks/cpp/exercises/robot-simulator)
 de Exercism. 
 Consiga que su solución pase todos los tests y envíe su solución a la plataforma.
-
+Si estudia el fichero `robot_simulator_test.cpp` de tests del problema observará que la clase `Robot` a
+diseñar ha de contener al menos los métodos
+* *get_bearing()*
+* *get_position()*
+* *turn_left()*
+* *advance()*
+* *execute_sequence()*
 
 ### Referencias
 * [Exercism](https://exercism.io/)
@@ -312,7 +319,7 @@ Consiga que su solución pase todos los tests y envíe su solución a la platafo
 * [Desarrollo dirigido por Tests](https://es.wikipedia.org/wiki/Desarrollo_guiado_por_pruebas)
 * [Google Test](https://en.wikipedia.org/wiki/Google_Test)
 * [Cómo usar Google Test para C++ en VSC](https://docs.microsoft.com/es-es/visualstudio/test/how-to-use-google-test-for-cpp?view=vs-2019), 
-* [Introduction to modern CMake for beginners](https://www.internalpointers.com/post/modern-cmake-beginner-introduction)
 * [Welcome to object-oriented programming - Tutorial learnCPP](https://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/).
+* [Complex Number](https://en.wikipedia.org/wiki/Complex_number)
 * [Rational Number](https://en.wikipedia.org/wiki/Rational_number)
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
