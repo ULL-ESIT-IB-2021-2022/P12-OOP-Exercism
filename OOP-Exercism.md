@@ -66,10 +66,13 @@ desee practicar.
 Obviamente se propone que elija el track correspondiente a C++.
 
 Propóngase a continuación resolver el problema "Hello World".
-En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica *Install Exercism locally* y 
-[Begin walk-through](https://exercism.io/cli-walkthrough).
-Si sigue ese enlace le llevará a la página *Welcome to the Exercism installation guide!* con instrucciones
-sobre cómo instalar `Exercism`.
+En la página de ese problema (o de cualquier otro) hallará Ud. un enlace que indica 
+[Learn more about solving exercises
+locally](https://exercism.org/docs/using/solving-exercises/working-locally).
+Si sigue ese enlace le llevará a la página *Working Locally* con instrucciones
+sobre cómo instalar `Exercism` en su máquina (*Installing the CLI*).
+En la página
+[Welcome to the Exercism installation guide!](https://exercism.org/cli-walkthrough)
 En este documento se propone instalarla en la máquina virtual Linux de la asignatura.
 Eligiendo la opción *Linux* y a continuación la opción *Using snap* se le pedirá que ejecute
 ```
