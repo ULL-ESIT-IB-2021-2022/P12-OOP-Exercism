@@ -308,6 +308,7 @@ Si estudia el fichero `robot_simulator_test.cpp` de tests del problema observar�
 diseñar ha de contener al menos los métodos:
 * *get_bearing()*
 * *get_position()*
+* *turn_right()*
 * *turn_left()*
 * *advance()*
 * *execute_sequence()*
